@@ -22,13 +22,17 @@ export default function Shop() {
           
           <div className="max-w-[400px] mx-auto">
             <h3 className="font-mono text-[10px] tracking-[0.18em] uppercase text-brand-smoke mb-4">Get Notified on Launch</h3>
-            <form className="flex flex-col sm:flex-row gap-3">
-               <input 
-                 type="email" 
-                 placeholder="Your email address" 
+            <form action="https://formsubmit.co/queenmurphy5@yahoo.com" method="POST" className="flex flex-col sm:flex-row gap-3">
+               <input type="hidden" name="_subject" value="KKD Avenue Store — Notify Me Request" />
+               <input type="hidden" name="_captcha" value="false" />
+               <input
+                 type="email"
+                 name="email"
+                 required
+                 placeholder="Your email address"
                  className="bg-brand-ink border border-brand-line px-5 py-4 w-full text-brand-cream focus:outline-none focus:border-brand-gold transition-colors font-sans text-sm placeholder:text-brand-smoke"
                />
-               <button type="button" className="bg-brand-gold text-brand-ink px-6 py-4 font-mono text-[11px] uppercase tracking-[0.16em] hover:bg-brand-cream transition-colors whitespace-nowrap border border-brand-gold hover:border-brand-cream">
+               <button type="submit" className="bg-brand-gold text-brand-ink px-6 py-4 font-mono text-[11px] uppercase tracking-[0.16em] hover:bg-brand-cream transition-colors whitespace-nowrap border border-brand-gold hover:border-brand-cream">
                  Notify
                </button>
             </form>

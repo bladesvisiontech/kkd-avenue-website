@@ -1,5 +1,6 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { useState } from 'react';
+import { motion } from 'motion/react';
 
 export default function Contact() {
   const [inquiryType, setInquiryType] = useState('private');
@@ -10,8 +11,8 @@ export default function Contact() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&q=80&w=2000" 
-            alt="Contact Us" 
+            src="/interior-bar.jpg"
+            alt="KKD Avenue Bar" 
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-brand-ink/80 to-transparent"></div>
@@ -62,14 +63,14 @@ export default function Contact() {
                        <Phone size={20} className="text-brand-smoke mt-1 shrink-0 stroke-[1]" />
                        <div>
                          <p className="font-serif text-[20px] mb-1">Phone</p>
-                         <p className="text-brand-pearl text-[14px]">(713) 555-0198</p>
+                         <a href="tel:+17135550198" className="text-brand-pearl text-[14px] hover:text-brand-gold transition-colors">(713) 555-0198</a>
                        </div>
                      </div>
                      <div className="flex gap-5 items-start">
                        <Mail size={20} className="text-brand-smoke mt-1 shrink-0 stroke-[1]" />
                        <div>
                          <p className="font-serif text-[20px] mb-1">Email</p>
-                         <p className="text-brand-pearl text-[14px]">hello@kkdavenue.com</p>
+                         <a href="mailto:hello@kkdavenue.com" className="text-brand-pearl text-[14px] hover:text-brand-gold transition-colors">hello@kkdavenue.com</a>
                        </div>
                      </div>
                   </div>

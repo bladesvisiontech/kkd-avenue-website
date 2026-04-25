@@ -233,9 +233,9 @@ export default function Menu() {
               <MapPin className="w-8 h-8 text-brand-gold mb-6" strokeWidth={1} />
               <h3 className="font-serif text-2xl mb-4 italic">Visit Us</h3>
               <p className="text-brand-pearl font-sans mb-6">Experience our menu live. Join us in our Houston location for the complete KD Avenue vibe.</p>
-              <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-brand-gold">
-                6951 McHard Rd, Houston
-              </div>
+              <a href="https://www.google.com/maps/place/KKD+AVENUE/@29.5811523,-95.4652429,17z" target="_blank" rel="noopener noreferrer" className="font-mono text-[10px] tracking-[0.2em] uppercase text-brand-gold hover:text-brand-cream transition-colors">
+                6951 McHard Rd, Houston ↗
+              </a>
             </motion.div>
           </div>
 
