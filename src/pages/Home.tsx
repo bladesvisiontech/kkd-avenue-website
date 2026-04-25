@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="relative flex items-center justify-center bg-[#111] min-h-[50vh] md:min-h-screen overflow-hidden">
+        <div className="hidden md:flex relative items-center justify-center bg-[#111] md:min-h-screen overflow-hidden">
           <video 
             src="/hero-video.mp4" 
             autoPlay 
