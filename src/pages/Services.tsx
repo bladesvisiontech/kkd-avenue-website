@@ -21,7 +21,7 @@ export default function Services() {
       description: "Our bread and butter. We provide an all-inclusive experience including the venue, custom decor, catering, and staff. Host the perfect event without lifting a finger.",
       image: "/interior-bar.jpg",
       cta: "Request Quote ↗",
-      link: "/pricing"
+      link: "/contact"
     },
     {
       id: "catering",
@@ -31,7 +31,7 @@ export default function Services() {
       description: "Want the food without the space? Our chef-driven catering services bring elevated menus to you. Available for service zones across the Greater Houston area.",
       image: "/mixed-plate.jpg",
       cta: "View Menus ↗",
-      link: "/pricing"
+      link: "/menu"
     }
   ];
 
