@@ -7,9 +7,10 @@ export default function Pricing() {
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
+          <img
             src="/interior-roses.jpg"
-            alt="KKD Avenue Setup" 
+            alt="KKD Avenue Setup"
+            fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-brand-ink/80 to-transparent"></div>

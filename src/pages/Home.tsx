@@ -172,16 +172,16 @@ export default function Home() {
           
           <div className="grid grid-cols-12 gap-3">
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/5.jpg" alt="Moment 1" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/5.jpg" alt="Moment 1" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/6.jpg" alt="Moment 2" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/6.jpg" alt="Moment 2" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/7.jpg" alt="Moment 3" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/7.jpg" alt="Moment 3" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/8.jpg" alt="Moment 4" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/8.jpg" alt="Moment 4" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
           </div>
         </div>

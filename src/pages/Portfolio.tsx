@@ -25,9 +25,10 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
+          <img
             src="/facade-1.jpg"
-            alt="KKD Avenue Exterior" 
+            alt="KKD Avenue Exterior"
+            fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-brand-ink/80 to-transparent"></div>
@@ -72,9 +73,10 @@ export default function Portfolio() {
                   className="group flex flex-col"
                 >
                   <div className="aspect-[4/5] overflow-hidden bg-brand-violet relative border border-brand-line">
-                    <img 
-                      src={project.img} 
-                      alt={project.title} 
+                    <img
+                      src={project.img}
+                      alt={project.title}
+                      loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] opacity-90 group-hover:opacity-100"
                     />
                   </div>

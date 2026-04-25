@@ -40,9 +40,10 @@ export default function Services() {
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=2000" 
-            alt="Catering and Service" 
+          <img
+            src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=2000"
+            alt="Catering and Service"
+            fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-brand-ink/80 to-transparent"></div>
@@ -85,9 +86,10 @@ export default function Services() {
                   <div className="absolute top-4 left-4 bg-brand-ink/80 border border-brand-gold text-brand-gold font-mono text-[10px] tracking-[0.16em] uppercase px-2 py-1 z-10 backdrop-blur-sm">
                     0{index + 1}
                   </div>
-                  <img 
-                    src={service.image} 
-                    alt={service.title} 
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105 opacity-90"
                   />
                 </div>
