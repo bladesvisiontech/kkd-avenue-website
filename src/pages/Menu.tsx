@@ -15,7 +15,7 @@ export default function Menu() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/chicken-pasta.jpg"
+            src="/chicken-pasta.webp"
             alt="Delicious Pasta"
             fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
@@ -135,7 +135,7 @@ export default function Menu() {
               </div>
               
               <div className="mt-10 aspect-[4/3] w-full overflow-hidden">
-                <img src="/mixed-plate.jpg" alt="Mixed Plate" loading="lazy" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+                <img src="/mixed-plate.webp" alt="Mixed Plate" loading="lazy" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
               </div>
             </motion.div>
 
@@ -170,10 +170,10 @@ export default function Menu() {
 
               <div className="grid grid-cols-2 gap-4">
                  <div className="aspect-square w-full overflow-hidden">
-                  <img src="/oxtails.jpg" alt="Oxtails" loading="lazy" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+                  <img src="/oxtails.webp" alt="Oxtails" loading="lazy" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
                 </div>
                 <div className="aspect-square w-full overflow-hidden">
-                  <img src="/lamb-chops.jpg" alt="Lamb Chops" loading="lazy" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+                  <img src="/lamb-chops.webp" alt="Lamb Chops" loading="lazy" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
                 </div>
               </div>
             </motion.div>

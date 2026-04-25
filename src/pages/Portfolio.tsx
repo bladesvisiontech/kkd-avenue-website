@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom';
 
 export default function Portfolio() {
   const projects = [
-    { id: 1, img: '/5.jpg', title: 'Spicy Wings', type: 'Food' },
-    { id: 2, img: '/lamb-chops.jpg', title: 'Lamb Chops & Mash', type: 'Food' },
-    { id: 3, img: '/chicken-pasta.jpg', title: 'Chicken Pasta', type: 'Food' },
-    { id: 4, img: '/oxtails.jpg', title: 'Oxtails & Rice', type: 'Food' },
-    { id: 5, img: '/6.jpg', title: 'Crispy Fries', type: 'Food' },
-    { id: 6, img: '/7.jpg', title: 'Chicken Pasta', type: 'Food' },
-    { id: 7, img: '/8.jpg', title: 'Lamb Chops', type: 'Food' },
-    { id: 8, img: '/mixed-plate.jpg', title: 'Spread', type: 'Food' },
-    { id: 9, img: '/interior-wide.jpg', title: 'Interior Dining Area', type: 'Venue' },
-    { id: 10, img: '/interior-bar.jpg', title: 'Bar Area', type: 'Venue' },
-    { id: 11, img: '/interior-roses.jpg', title: 'Interior Vibe', type: 'Venue' },
-    { id: 12, img: '/exterior-sign.jpg', title: 'Exterior Sign', type: 'Venue' },
-    { id: 13, img: '/facade-1.jpg', title: 'Exterior Daytime', type: 'Venue' },
+    { id: 1, img: '/5.webp', title: 'Spicy Wings', type: 'Food' },
+    { id: 2, img: '/lamb-chops.webp', title: 'Lamb Chops & Mash', type: 'Food' },
+    { id: 3, img: '/chicken-pasta.webp', title: 'Chicken Pasta', type: 'Food' },
+    { id: 4, img: '/oxtails.webp', title: 'Oxtails & Rice', type: 'Food' },
+    { id: 5, img: '/6.webp', title: 'Crispy Fries', type: 'Food' },
+    { id: 6, img: '/7.webp', title: 'Chicken Pasta', type: 'Food' },
+    { id: 7, img: '/8.webp', title: 'Lamb Chops', type: 'Food' },
+    { id: 8, img: '/mixed-plate.webp', title: 'Spread', type: 'Food' },
+    { id: 9, img: '/interior-wide.webp', title: 'Interior Dining Area', type: 'Venue' },
+    { id: 10, img: '/interior-bar.webp', title: 'Bar Area', type: 'Venue' },
+    { id: 11, img: '/interior-roses.webp', title: 'Interior Vibe', type: 'Venue' },
+    { id: 12, img: '/exterior-sign.webp', title: 'Exterior Sign', type: 'Venue' },
+    { id: 13, img: '/facade-1.webp', title: 'Exterior Daytime', type: 'Venue' },
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function Portfolio() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/facade-1.jpg"
+            src="/facade-1.webp"
             alt="KKD Avenue Exterior"
             fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"

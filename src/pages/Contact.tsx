@@ -11,7 +11,7 @@ export default function Contact() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/interior-bar.jpg"
+            src="/interior-bar.webp"
             alt="KKD Avenue Bar"
             fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"

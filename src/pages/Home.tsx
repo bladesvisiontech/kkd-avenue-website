@@ -91,7 +91,7 @@ export default function Home() {
             <Link to="/services" className="group relative block overflow-hidden min-h-[460px] border-b md:border-b-0 md:border-r border-brand-line">
               <div 
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: 'url("/interior-bar.jpg")' }}
+                style={{ backgroundImage: 'url("/interior-bar.webp")' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-ink/90 via-brand-ink/50 to-transparent" />
               <div className="absolute bottom-0 left-0 p-10 flex flex-col">
@@ -105,7 +105,7 @@ export default function Home() {
             <Link to="/services" className="group relative block overflow-hidden min-h-[460px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: 'url("/interior-wide.jpg")' }}
+                style={{ backgroundImage: 'url("/interior-wide.webp")' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-ink/90 via-brand-ink/50 to-transparent" />
               <div className="absolute bottom-0 left-0 p-10 flex flex-col">
@@ -172,16 +172,16 @@ export default function Home() {
           
           <div className="grid grid-cols-12 gap-3">
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/5.jpg" alt="Moment 1" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/5.webp" alt="Moment 1" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/6.jpg" alt="Moment 2" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/6.webp" alt="Moment 2" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/7.jpg" alt="Moment 3" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/7.webp" alt="Moment 3" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/8.jpg" alt="Moment 4" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src="/8.webp" alt="Moment 4" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
           </div>
         </div>

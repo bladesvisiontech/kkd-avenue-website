@@ -9,7 +9,7 @@ export default function Services() {
       titleEm: "Experiences",
       subtitle: "Date nights, girls' nights, and themed evenings.",
       description: "For those looking to enjoy a curated vibe without the commitment of a full buyout. Reserve a table, enjoy chef-crafted menus, and soak in our signature ambiance.",
-      image: "/interior-roses.jpg",
+      image: "/interior-roses.webp",
       cta: "Reserve a Table ↗",
       link: "/contact"
     },
@@ -19,7 +19,7 @@ export default function Services() {
       titleEm: "Events",
       subtitle: "Birthdays, showers, corporate, and intimate celebrations.",
       description: "Our bread and butter. We provide an all-inclusive experience including the venue, custom decor, catering, and staff. Host the perfect event without lifting a finger.",
-      image: "/interior-bar.jpg",
+      image: "/interior-bar.webp",
       cta: "Request Quote ↗",
       link: "/contact"
     },
@@ -29,7 +29,7 @@ export default function Services() {
       titleEm: "Catering",
       subtitle: "The KKD culinary experience at your location.",
       description: "Want the food without the space? Our chef-driven catering services bring elevated menus to you. Available for service zones across the Greater Houston area.",
-      image: "/mixed-plate.jpg",
+      image: "/mixed-plate.webp",
       cta: "View Menus ↗",
       link: "/menu"
     }

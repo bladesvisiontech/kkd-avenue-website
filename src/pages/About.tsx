@@ -8,7 +8,7 @@ export default function About() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/interior-wide.jpg"
+            src="/interior-wide.webp"
             alt="KKD Avenue Interior"
             fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
@@ -43,7 +43,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">
             <div className="relative aspect-[4/5] overflow-hidden group">
               <img
-                src="/exterior-sign.jpg"
+                src="/exterior-sign.webp"
                 alt="Founder of KKD Avenue"
                 loading="lazy"
                 className="w-full h-full object-cover grayscale transition-transform duration-[0.8s] group-hover:scale-[1.03] group-hover:grayscale-0"
@@ -110,7 +110,7 @@ export default function About() {
               </p>
             </div>
             <div className="md:col-span-7 aspect-[4/3] bg-brand-violet overflow-hidden relative border border-brand-line">
-               <img src="/interior-wide.jpg" alt="Event space interior" loading="lazy" className="w-full h-full object-cover opacity-80" />
+               <img src="/interior-wide.webp" alt="Event space interior" loading="lazy" className="w-full h-full object-cover opacity-80" />
             </div>
           </div>
         </div>

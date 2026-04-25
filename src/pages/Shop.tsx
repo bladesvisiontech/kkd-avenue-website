@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 export default function Shop() {
   return (
-    <div className="min-h-[calc(100vh-100px)] flex flex-col items-center justify-center bg-[url('/interior-roses.jpg')] bg-cover bg-center relative">
+    <div className="min-h-[calc(100vh-100px)] flex flex-col items-center justify-center bg-[url('/interior-roses.webp')] bg-cover bg-center relative">
       <div className="absolute inset-0 bg-brand-ink/80 backdrop-blur-sm"></div>
       
       <div className="max-w-[700px] w-full mx-auto px-6 text-center py-24 relative z-10">
