@@ -22,7 +22,7 @@ export default function Shop() {
           
           <div className="max-w-[400px] mx-auto">
             <h3 className="font-mono text-[10px] tracking-[0.18em] uppercase text-brand-smoke mb-4">Get Notified on Launch</h3>
-            <form action="https://formsubmit.co/queenmurphy5@yahoo.com" method="POST" className="flex flex-col sm:flex-row gap-3">
+            <form action="https://formsubmit.co/queen@kkdavenuehtx.com" method="POST" className="flex flex-col sm:flex-row gap-3">
                <input type="hidden" name="_subject" value="KKD Avenue Store — Notify Me Request" />
                <input type="hidden" name="_captcha" value="false" />
                <input

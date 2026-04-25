@@ -63,14 +63,14 @@ export default function Contact() {
                        <Phone size={20} className="text-brand-smoke mt-1 shrink-0 stroke-[1]" />
                        <div>
                          <p className="font-serif text-[20px] mb-1">Phone</p>
-                         <a href="tel:+17135550198" className="text-brand-pearl text-[14px] hover:text-brand-gold transition-colors">(713) 555-0198</a>
+                         <a href="tel:+17134879908" className="text-brand-pearl text-[14px] hover:text-brand-gold transition-colors">(713) 487-9908</a>
                        </div>
                      </div>
                      <div className="flex gap-5 items-start">
                        <Mail size={20} className="text-brand-smoke mt-1 shrink-0 stroke-[1]" />
                        <div>
                          <p className="font-serif text-[20px] mb-1">Email</p>
-                         <a href="mailto:hello@kkdavenue.com" className="text-brand-pearl text-[14px] hover:text-brand-gold transition-colors">hello@kkdavenue.com</a>
+                         <a href="mailto:queen@kkdavenuehtx.com" className="text-brand-pearl text-[14px] hover:text-brand-gold transition-colors">queen@kkdavenuehtx.com</a>
                        </div>
                      </div>
                   </div>
@@ -113,7 +113,7 @@ export default function Contact() {
                   ))}
                </div>
 
-               <form action="https://formsubmit.co/queenmurphy5@yahoo.com" method="POST" className="space-y-8 relative z-10">
+               <form action="https://formsubmit.co/queen@kkdavenuehtx.com" method="POST" className="space-y-8 relative z-10">
                   <input type="hidden" name="_subject" value="New Inquiry from KKD Avenue Website" />
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="Inquiry Type" value={inquiryType} />
