@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-ink: #0B0A0E;
+  --color-brand-violet: #1C1628;
+  --color-brand-eggplant: #4A2C5A;
+  --color-brand-smoke: #4A4652;
+  --color-brand-pearl: #B8B3BF;
+  --color-brand-gold: #B89456;
+  --color-brand-gold-soft: #8E7340;
+  --color-brand-cream: #E9E6ED;
+  --color-brand-line: #2A2432;
+}
+
+@layer base {
+  html, body {
+    @apply bg-brand-ink text-brand-cream font-sans antialiased font-light;
+    font-size: 15px;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium;
+    letter-spacing: -0.015em;
+  }
+}
+
+@layer utilities {
+  .tag-mono {
+    @apply font-mono text-[11px] tracking-[0.16em] uppercase text-brand-pearl;
+  }
+}
+
