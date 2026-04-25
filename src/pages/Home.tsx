@@ -6,7 +6,17 @@ export default function Home() {
     <div className="-mt-24">
       {/* 1. Full-screen Hero */}
       <section className="min-h-[100svh] grid md:grid-cols-2 items-stretch border-b border-brand-line">
-        <div className="pt-[160px] pb-12 px-6 md:pl-12 lg:pl-20 md:pr-12 flex flex-col justify-between relative bg-brand-ink text-brand-cream z-10">
+        <div className="pt-[160px] pb-12 px-6 md:pl-12 lg:pl-20 md:pr-12 flex flex-col justify-between relative text-brand-cream z-10 bg-brand-ink md:bg-brand-ink overflow-hidden">
+          {/* Video background — mobile only */}
+          <video
+            src="/hero-video.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="md:hidden absolute inset-0 w-full h-full object-cover object-center -z-10"
+          />
+          <div className="md:hidden absolute inset-0 bg-brand-ink/70 -z-10" />
           <div>
             <div className="tag-mono text-brand-gold mb-7 tracking-[0.2em] text-[10px]">HOUSTON &middot; TEXAS &middot; EST. MMXXIII</div>
             <motion.h1 
