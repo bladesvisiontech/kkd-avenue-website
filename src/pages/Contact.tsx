@@ -101,6 +101,7 @@ export default function Contact() {
                     { id: 'other', label: 'Other/Press' },
                   ].map((type) => (
                     <button
+                      type="button"
                       key={type.id}
                       onClick={() => setInquiryType(type.id)}
                       className={`px-5 py-2.5 font-mono text-[10px] tracking-[0.16em] uppercase transition-all border ${

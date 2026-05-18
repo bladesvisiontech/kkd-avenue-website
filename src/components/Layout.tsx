@@ -65,7 +65,9 @@ export default function Layout() {
             </Link>
           </nav>
 
-          <button 
+          <button
+            type="button"
+            aria-label="Toggle menu"
             className="md:hidden flex flex-col justify-center items-center gap-[5px] w-10 h-10 border border-brand-line bg-transparent text-brand-gold shrink-0"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
