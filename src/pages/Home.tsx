@@ -4,7 +4,7 @@ import { usePreview } from '../context/PreviewContext';
 
 export default function Home() {
   const { home } = usePreview();
-  const { hero, audience, pillars, portfolio, portfolioImages, testimonial } = home;
+  const { hero, audience, audienceImages, pillars, portfolio, portfolioImages, testimonial } = home;
 
   return (
     <div className="-mt-24">
@@ -95,7 +95,7 @@ export default function Home() {
             <Link to={audience.card1.link} className="group relative block overflow-hidden min-h-[460px] border-b md:border-b-0 md:border-r border-brand-line">
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: 'url("/interior-bar.webp")' }}
+                style={{ backgroundImage: `url("${audienceImages?.[0] ?? '/interior-bar.webp'}")` }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-ink/90 via-brand-ink/50 to-transparent" />
               <div className="absolute bottom-0 left-0 p-10 flex flex-col">
@@ -111,7 +111,7 @@ export default function Home() {
             <Link to={audience.card2.link} className="group relative block overflow-hidden min-h-[460px]">
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: 'url("/interior-wide.webp")' }}
+                style={{ backgroundImage: `url("${audienceImages?.[1] ?? '/interior-wide.webp'}")` }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-ink/90 via-brand-ink/50 to-transparent" />
               <div className="absolute bottom-0 left-0 p-10 flex flex-col">

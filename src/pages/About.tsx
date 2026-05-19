@@ -106,7 +106,7 @@ export default function About() {
               </p>
             </div>
             <div className="md:col-span-7 aspect-[4/3] bg-brand-violet overflow-hidden relative border border-brand-line">
-              <img src="/interior-wide.webp" alt="Event space interior" loading="lazy" className="w-full h-full object-cover opacity-80" />
+              <img src={space.image ?? '/interior-wide.webp'} alt="Event space interior" loading="lazy" className="w-full h-full object-cover opacity-80" />
             </div>
           </div>
         </div>

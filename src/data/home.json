@@ -64,6 +64,7 @@
     "ctaLabel": "View Gallery ↗",
     "ctaLink": "/portfolio"
   },
+  "audienceImages": ["/interior-bar.webp", "/interior-wide.webp"],
   "portfolioImages": ["/5.webp", "/6.webp", "/7.webp", "/8.webp"],
   "testimonial": {
     "quote": "We booked KKD for a private 30th birthday and it was flawless. They truly thought of everything — the aesthetics, the food, the vibe.",
