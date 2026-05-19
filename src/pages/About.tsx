@@ -47,7 +47,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">
             <div className="relative aspect-[4/5] overflow-hidden group">
               <img
-                src="/exterior-sign.webp"
+                src={founder.image ?? '/exterior-sign.webp'}
                 alt="Founder of KKD Avenue"
                 loading="lazy"
                 className="w-full h-full object-cover grayscale transition-transform duration-[0.8s] group-hover:scale-[1.03] group-hover:grayscale-0"

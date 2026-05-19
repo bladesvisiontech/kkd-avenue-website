@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import { usePreview } from '../context/PreviewContext';
 
 export default function Home() {
-  const { site: siteData, home } = usePreview();
-  const { testimonial } = siteData;
-  const { hero, audience, pillars, portfolio } = home;
+  const { home } = usePreview();
+  const { hero, audience, pillars, portfolio, testimonial } = home;
 
   return (
     <div className="-mt-24">

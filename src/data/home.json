@@ -63,5 +63,11 @@
     "titleEm": "KKD.",
     "ctaLabel": "View Gallery ↗",
     "ctaLink": "/portfolio"
+  },
+  "testimonial": {
+    "quote": "We booked KKD for a private 30th birthday and it was flawless. They truly thought of everything — the aesthetics, the food, the vibe.",
+    "emphasis": "Houston needed a place like this.",
+    "author": "Jasmine T.",
+    "context": "Private Event"
   }
 }
