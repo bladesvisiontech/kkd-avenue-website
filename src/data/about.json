@@ -8,7 +8,7 @@
   "founder": {
     "tag": "Founder",
     "name": "Luquenna",
-    "image": "/exterior-sign.webp",
+    "image": "/cms-1779224145877.jpg",
     "title": "Created to",
     "titleEm": "elevate",
     "titleSuffix": "the Houston event scene.",
@@ -22,9 +22,21 @@
     "tag": "Philosophy",
     "title": "What sets us apart.",
     "items": [
-      { "id": "01", "title": "All-In-One", "desc": "Space, decor, catering, and programming. You show up — we handle absolutely everything." },
-      { "id": "02", "title": "Elevated Atmosphere", "desc": "Aesthetic-first design meant to be photographed, remembered, and felt." },
-      { "id": "03", "title": "Hospitality", "desc": "Our team and chef ensure your guests are catered to from the first sip to the last bite." }
+      {
+        "id": "01",
+        "title": "All-In-One",
+        "desc": "Space, decor, catering, and programming. You show up — we handle absolutely everything."
+      },
+      {
+        "id": "02",
+        "title": "Elevated Atmosphere",
+        "desc": "Aesthetic-first design meant to be photographed, remembered, and felt."
+      },
+      {
+        "id": "03",
+        "title": "Hospitality",
+        "desc": "Our team and chef ensure your guests are catered to from the first sip to the last bite."
+      }
     ]
   },
   "space": {
