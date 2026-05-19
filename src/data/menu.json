@@ -1,4 +1,10 @@
 {
+  "images": {
+    "hero": "/chicken-pasta.webp",
+    "everydayPlate": "/mixed-plate.webp",
+    "soulFood1": "/oxtails.webp",
+    "soulFood2": "/lamb-chops.webp"
+  },
   "hero": {
     "tag": "Our Offerings",
     "title": "The",

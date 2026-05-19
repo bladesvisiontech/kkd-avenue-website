@@ -4,7 +4,7 @@ import { usePreview } from '../context/PreviewContext';
 
 export default function Home() {
   const { home } = usePreview();
-  const { hero, audience, pillars, portfolio, testimonial } = home;
+  const { hero, audience, pillars, portfolio, portfolioImages, testimonial } = home;
 
   return (
     <div className="-mt-24">
@@ -175,16 +175,16 @@ export default function Home() {
 
           <div className="grid grid-cols-12 gap-3">
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/5.webp" alt="Moment 1" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src={portfolioImages?.[0] ?? '/5.webp'} alt="Moment 1" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/6.webp" alt="Moment 2" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src={portfolioImages?.[1] ?? '/6.webp'} alt="Moment 2" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/7.webp" alt="Moment 3" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src={portfolioImages?.[2] ?? '/7.webp'} alt="Moment 3" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
             <div className="col-span-6 md:col-span-3 aspect-[4/5] relative overflow-hidden group border border-brand-line">
-              <img src="/8.webp" alt="Moment 4" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
+              <img src={portfolioImages?.[3] ?? '/8.webp'} alt="Moment 4" loading="lazy" className="w-full h-full object-cover transition-transform duration-[0.8s] ease-in-out group-hover:scale-[1.04]" />
             </div>
           </div>
         </div>
