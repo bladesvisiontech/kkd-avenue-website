@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "tag": "Investment",
+    "title": "Pricing &",
+    "titleEm": "Packages",
+    "subtitle": "Transparent packages for our social experiences, and tailored custom quotes for full private events."
+  },
+  "packages": [
+    {
+      "id": "social",
+      "tag": "Public Packages",
+      "title": "Social Experiences",
+      "description": "Perfect for date nights, girls' nights out, or small celebrations without renting the full venue.",
+      "startingFrom": "$150",
+      "startingLabel": "/ couple",
+      "features": [
+        "Reserved curated seating",
+        "Welcome cocktails or mocktails",
+        "3-course chef's tasting menu",
+        "Immersive ambient lighting & music"
+      ],
+      "ctaLabel": "Reserve a Table",
+      "ctaLink": "/contact",
+      "variant": "light"
+    },
+    {
+      "id": "private",
+      "tag": "Custom Quotes",
+      "title": "Private Events",
+      "description": "Full venue buyouts, bespoke design, and tailored catering for up to 50 guests.",
+      "startingFrom": "$2,500",
+      "startingLabel": "",
+      "features": [
+        "Private use of the entire space",
+        "Custom aesthetic design & layout",
+        "Dedicated event staff & chef",
+        "Pre-event tasting & consultation",
+        "Premium audio & visual setup"
+      ],
+      "ctaLabel": "Request a Quote",
+      "ctaLink": "/contact",
+      "variant": "dark"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you require a deposit?",
+      "answer": "Yes, a 50% non-refundable retainer is required to secure your date for private events. The remaining balance is due 14 days prior to your event."
+    },
+    {
+      "question": "Can we bring our own catering or alcohol?",
+      "answer": "Part of the KKD Avenue experience is our exceptional in-house catering and bar service. Outside food and beverages are generally not permitted, but we can accommodate special dietary restrictions and custom menu requests."
+    },
+    {
+      "question": "What is the capacity of the venue?",
+      "answer": "Our space is designed for intimate to mid-sized elevated gatherings. We comfortably accommodate up to 50 guests for a seated dinner and 75 for cocktail-style events."
+    }
+  ]
+}

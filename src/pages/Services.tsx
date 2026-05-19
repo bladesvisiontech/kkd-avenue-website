@@ -1,39 +1,10 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
+import { usePreview } from '../context/PreviewContext';
 
 export default function Services() {
-  const services = [
-    {
-      id: "social",
-      title: "Social",
-      titleEm: "Experiences",
-      subtitle: "Date nights, girls' nights, and themed evenings.",
-      description: "For those looking to enjoy a curated vibe without the commitment of a full buyout. Reserve a table, enjoy chef-crafted menus, and soak in our signature ambiance.",
-      image: "/interior-roses.webp",
-      cta: "Reserve a Table ↗",
-      link: "/contact"
-    },
-    {
-      id: "private",
-      title: "Private",
-      titleEm: "Events",
-      subtitle: "Birthdays, showers, corporate, and intimate celebrations.",
-      description: "Our bread and butter. We provide an all-inclusive experience including the venue, custom decor, catering, and staff. Host the perfect event without lifting a finger.",
-      image: "/interior-bar.webp",
-      cta: "Request Quote ↗",
-      link: "/contact"
-    },
-    {
-      id: "catering",
-      title: "Luxury",
-      titleEm: "Catering",
-      subtitle: "The KKD culinary experience at your location.",
-      description: "Want the food without the space? Our chef-driven catering services bring elevated menus to you. Available for service zones across the Greater Houston area.",
-      image: "/mixed-plate.webp",
-      cta: "View Menus ↗",
-      link: "/menu"
-    }
-  ];
+  const { services: servicesData } = usePreview();
+  const { hero, items } = servicesData;
 
   return (
     <div className="pb-24">
@@ -48,7 +19,7 @@ export default function Services() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-brand-ink/80 to-transparent"></div>
         </div>
-        
+
         <div className="max-w-[1000px] w-full mx-auto px-6 relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -57,14 +28,14 @@ export default function Services() {
           >
             <div className="inline-flex items-center gap-3 mb-6">
               <span className="w-8 h-[1px] bg-brand-gold"></span>
-              <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-brand-gold">Our Services</span>
+              <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-brand-gold">{hero.tag}</span>
               <span className="w-8 h-[1px] bg-brand-gold"></span>
             </div>
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight mb-8">
-              How we <span className="italic text-brand-gold">serve</span> you
+              {hero.title} <span className="italic text-brand-gold">{hero.titleEm}</span> {hero.titleSuffix}
             </h1>
             <p className="font-sans text-brand-pearl max-w-[600px] mx-auto text-lg leading-relaxed">
-              From a curated table for two to a full venue buyout for fifty. Choose the experience that fits your occasion.
+              {hero.subtitle}
             </p>
           </motion.div>
         </div>
@@ -73,8 +44,8 @@ export default function Services() {
       {/* Services List */}
       <section>
         <div className="max-w-[1360px] mx-auto px-6 lg:px-14 py-[120px] space-y-[160px]">
-          {services.map((service, index) => (
-            <motion.div 
+          {items.map((service, index) => (
+            <motion.div
               key={service.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -94,15 +65,14 @@ export default function Services() {
                   />
                 </div>
               </div>
-              
+
               <div className="w-full md:w-1/2">
                 <h2 className="font-serif text-[clamp(40px,5vw,64px)] leading-[1.1] mb-2">{service.title} <br/><em className="text-brand-gold italic font-normal">{service.titleEm}</em></h2>
                 <h3 className="font-mono text-[12px] tracking-[0.12em] text-brand-pearl uppercase border-b border-brand-line pb-4 mb-6">{service.subtitle}</h3>
                 <p className="text-brand-pearl leading-[1.7] mb-10 text-[15px] max-w-[480px]">
                   {service.description}
                 </p>
-                
-                <Link 
+                <Link
                   to={service.link}
                   className="inline-flex font-mono text-[11px] tracking-[0.16em] uppercase text-brand-gold border-b border-brand-gold pb-1 hover:text-brand-cream hover:border-brand-cream transition-colors"
                 >

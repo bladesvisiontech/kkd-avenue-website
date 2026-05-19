@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "tag": "Our Offerings",
+    "title": "The",
+    "titleEm": "Menu",
+    "subtitle": "Curated flavors, crafted with soul. Experience our daily selections and weekly specialties."
+  },
+  "specials": {
+    "sundayMonday": {
+      "day": "Soulfood Sunday & Monday",
+      "description": "2 meats 3 sides | Premium meats lamb and oxtails",
+      "price": "$15.99 | $18.99"
+    },
+    "tuesday": {
+      "day": "Taco Tuesday",
+      "items": ["3 Fajita tacos", "3 Enchiladas"],
+      "note": "Both come with rice & beans",
+      "price": "$15.99"
+    },
+    "wednesday": {
+      "day": "Wing Whiskey Wednesday",
+      "items": [
+        { "name": "Turkey & Hamburgers", "price": "$11.99" },
+        { "name": "6pcs Wings", "price": "$10.99" },
+        { "name": "$1.00 individual wings", "price": "" }
+      ]
+    },
+    "thursday": {
+      "day": "Steak & Shrimp Thursday",
+      "description": "Steak, Shrimp, 1 Side & Salad",
+      "price": "$18.99 - $26.99"
+    },
+    "friday": {
+      "day": "Fried Fish & Shrimp Friday",
+      "items": [
+        { "name": "Fish / Po' Boys", "price": "$13.99 - $17.99" },
+        { "name": "4pcs Fish", "price": "$14.99" },
+        { "name": "Shrimp Po' Boy", "price": "$13.99" },
+        { "name": "Salmon Po' Boy", "price": "$15.99" },
+        { "name": "Fish Po' Boy", "price": "$13.99" }
+      ],
+      "extras": [
+        { "name": "Extra side", "price": "$5.00" },
+        { "name": "Add 4 pcs Shrimp", "price": "$5.00" }
+      ]
+    }
+  },
+  "everyday": {
+    "subtitle": "3pm",
+    "meats": ["Grilled Chicken", "Grilled Salmon", "Grilled Shrimp", "Fish"],
+    "pairs": ["Pasta", "Bun + Sub-Sandwich", "Salad", "2x Sides", "Baked Potato"]
+  },
+  "soulFood": {
+    "subtitle": "Sunday/Mon",
+    "entrees": ["Oxtails", "Turkey Wings", "Lamb Chops", "Meat Loaf", "Fried Chicken", "Smothered Chicken"],
+    "sides": ["Greens", "Yams", "Green Beans", "Mac and Cheese"]
+  },
+  "brunch": {
+    "subtitle": "Sundays 12-3",
+    "mains": ["Shrimp", "Sausage", "Fish", "Salmon Croquet", "Bacon"],
+    "pairs": ["Grits", "Waffle", "Eggs"]
+  },
+  "desserts": ["Cheese Cakes", "Cookies"]
+}

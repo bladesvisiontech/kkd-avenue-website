@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "tag": "Our Story",
+    "title": "The story behind the",
+    "titleEm": "Avenue",
+    "subtitle": "People book events with humans, not logos. At the heart of KKD is a commitment to creating memories effortlessly without sacrificing aesthetic."
+  },
+  "founder": {
+    "tag": "Founder",
+    "name": "Luquenna",
+    "title": "Created to",
+    "titleEm": "elevate",
+    "titleSuffix": "the Houston event scene.",
+    "paragraphs": [
+      "KKD Avenue was born out of a desire to see Houston's event scene elevated without the typical stress. For years, Luquenna noticed a gap in the market — you could find a beautiful space, but you'd have to bring your own caterer. Or you could find great food, but the ambiance fell flat.",
+      "She envisioned a single, cohesive ecosystem where modern design, immersive programming, and exceptional culinary experiences existed under one roof. An all-in-one approach where you simply show up, and the team handles the rest.",
+      "Today, KKD Avenue stands as a testament to that vision — a Black-owned luxury event space that doesn't just host events, but curates unforgettable experiences for the modern Houstonian."
+    ]
+  },
+  "values": {
+    "tag": "Philosophy",
+    "title": "What sets us apart.",
+    "items": [
+      { "id": "01", "title": "All-In-One", "desc": "Space, decor, catering, and programming. You show up — we handle absolutely everything." },
+      { "id": "02", "title": "Elevated Atmosphere", "desc": "Aesthetic-first design meant to be photographed, remembered, and felt." },
+      { "id": "03", "title": "Hospitality", "desc": "Our team and chef ensure your guests are catered to from the first sip to the last bite." }
+    ]
+  },
+  "space": {
+    "tag": "Venue Architecture",
+    "title": "Designed to",
+    "titleEm": "adapt.",
+    "desc": "Located strategically in the heart of Houston, KKD Avenue boasts versatile floor plans, customizable lighting, and integrated premium sound. Whether you're hosting an intimate gathering of 20 or a full-scale celebration, the space transforms to match your vision."
+  }
+}

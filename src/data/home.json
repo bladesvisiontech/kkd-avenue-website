@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "tag": "HOUSTON · TEXAS · EST. MMXXIII",
+    "headline": "Where every gathering becomes an",
+    "headlineEm": "experience.",
+    "subtext": "Houston's premier destination for elevated private events and curated social nights.",
+    "cta1Label": "Book an Experience",
+    "cta1Link": "/services",
+    "cta2Label": "Plan Your Event",
+    "cta2Link": "/contact",
+    "focusLabel": "Focus",
+    "focusText": "Private Events & Catering"
+  },
+  "audience": {
+    "card1": {
+      "tag": "01 · Social",
+      "title": "Date Nights &",
+      "titleEm": "Social Experiences",
+      "desc": "Curated vibes, premium drinks, and an atmosphere designed for connection.",
+      "cta": "Explore Vibe",
+      "link": "/services"
+    },
+    "card2": {
+      "tag": "02 · Events",
+      "title": "Private Events &",
+      "titleEm": "Catering",
+      "desc": "Intimate celebrations to full-scale buyouts. You show up, we handle the rest.",
+      "cta": "Start Planning",
+      "link": "/services"
+    }
+  },
+  "pillars": {
+    "tag": "Our Pillars",
+    "title": "The KKD",
+    "titleEm": "Experience.",
+    "subtitle": "Elevating Houston's event scene with unmatched attention to detail, design, and taste. We handle every element so you don't have to.",
+    "items": [
+      { "id": "01", "title": "Custom Events", "desc": "Turnkey bespoke celebrations down to the napery." },
+      { "id": "02", "title": "Elevated Catering", "desc": "Chef-driven menus designed to impress and indulge." },
+      { "id": "03", "title": "Immersive Programming", "desc": "From mixology to live entertainment, layered experiences." },
+      { "id": "04", "title": "Curated Ambiance", "desc": "Aesthetic spaces styled for luxury and photogenic moments." }
+    ]
+  },
+  "portfolio": {
+    "tag": "Portfolio",
+    "title": "Moments at",
+    "titleEm": "KKD.",
+    "ctaLabel": "View Gallery ↗",
+    "ctaLink": "/portfolio"
+  }
+}
