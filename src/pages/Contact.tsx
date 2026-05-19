@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { usePreview } from '../context/PreviewContext';
 
 const EMAILJS_SERVICE  = 'service_guhuv0j';
-const EMAILJS_TEMPLATE = '54isrxe';
+const EMAILJS_TEMPLATE = 'template_9njmvud';
 const EMAILJS_KEY      = 'lS6PL8fdArt6pklTe';
 
 export default function Contact() {
