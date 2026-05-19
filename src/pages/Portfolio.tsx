@@ -12,7 +12,7 @@ export default function Portfolio() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/facade-1.webp"
+            src={hero.image ?? '/facade-1.webp'}
             alt="KKD Avenue Exterior"
             fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"

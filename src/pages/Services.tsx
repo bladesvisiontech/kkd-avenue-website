@@ -12,7 +12,7 @@ export default function Services() {
       <section className="relative min-h-[50vh] flex items-center pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/interior-wide.webp"
+            src={hero.image ?? '/interior-wide.webp'}
             alt="KKD Avenue Services"
             fetchPriority="high"
             className="w-full h-full object-cover opacity-30 mix-blend-luminosity"

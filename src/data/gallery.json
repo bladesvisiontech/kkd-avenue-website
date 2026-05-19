@@ -3,7 +3,8 @@
     "tag": "Archive",
     "title": "A visual",
     "titleEm": "diary",
-    "subtitle": "Explore how we transform moments into milestones. A curated collection of past events and social gatherings."
+    "subtitle": "Explore how we transform moments into milestones. A curated collection of past events and social gatherings.",
+    "image": "/facade-1.webp"
   },
   "items": [
     { "id": 1, "img": "/5.webp", "title": "Spicy Wings", "type": "Food" },
