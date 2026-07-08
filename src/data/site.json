@@ -3,14 +3,27 @@
     "address": "6951 McHard Rd",
     "city": "Houston, TX 77053",
     "addressUrl": "https://www.google.com/maps/place/KKD+AVENUE/@29.5811523,-95.4652429,17z/data=!3m1!4b1!4m6!3m5!1s0x8640ed25f70920ab:0x61440e55a20060d9!8m2!3d29.5811477!4d-95.462668!16s%2Fg%2F11wy9b843k",
-    "phone": "(346) 747-1777",
+    "phone": "(346) 32476",
     "phoneUrl": "tel:+13467471777",
     "email": "Queen@kkdavenuehtx.com"
   },
   "hours": [
-    { "label": "Mon - Wed", "value": "Private Events", "highlight": false },
-    { "label": "Thu - Sat", "value": "5:00 PM — 12:00 AM", "highlight": true },
-    { "label": "Sunday", "value": "11 AM — 4 PM", "note": "Brunch", "highlight": true }
+    {
+      "label": "Mon - Wed",
+      "value": "Private Events",
+      "highlight": false
+    },
+    {
+      "label": "Thu - Sat",
+      "value": "5:00 PM — 12:00 AM",
+      "highlight": true
+    },
+    {
+      "label": "Sunday",
+      "value": "11 AM — 4 PM",
+      "note": "Brunch",
+      "highlight": true
+    }
   ],
   "social": {
     "instagram": "https://www.instagram.com/kkdavenue/",
@@ -18,15 +31,39 @@
     "tiktok": "https://www.tiktok.com/@kkdavenue"
   },
   "nav": [
-    { "label": "Home", "path": "/" },
-    { "label": "About", "path": "/about" },
-    { "label": "Menu", "path": "/menu" },
-    { "label": "Services", "path": "/services" },
-    { "label": "Portfolio", "path": "/portfolio" },
-    { "label": "Pricing", "path": "/pricing" },
-    { "label": "Shop", "path": "/shop" }
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Menu",
+      "path": "/menu"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Portfolio",
+      "path": "/portfolio"
+    },
+    {
+      "label": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "label": "Shop",
+      "path": "/shop"
+    }
   ],
-  "navCta": { "label": "Contact", "path": "/contact" },
+  "navCta": {
+    "label": "Contact",
+    "path": "/contact"
+  },
   "hero": {
     "tag": "Contact",
     "title": "Let's plan",
